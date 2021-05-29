@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="./Images/lion.png" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/about-modal.css" />
+    <title>Animal Information - Home</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <nav class="nav-parent">
+        <h2 class="nav-child">
+          <a href="#" class="brand-name">The World's Unique Wildlife</a>
+        </h2>
+        <div class="nav-child">
+          <ul class="nav-grand-child">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./feedback.html">Feedback</a></li>
+            <li class="dropdown">
+              <a href="#">
+                Countries
+                <span><i class="fas fa-caret-down"></i></span>
+              </a>
+
+              <div class="sub-menu-1">
+                <ul>
+                  <li><a href="./usa.html">USA</a></li>
+                  <li><a href="./india.html">India</a></li>
+                  <li><a href="./uae.html">UAE</a></li>
+                  <li><a href="./aus.html">Australia</a></li>
+                  <li><a href="./japan.html">Japan</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="#" data-modal-target="#modal-about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-1">
+      <section class="main-section">
+        <div class="hero-image">
+          <div class="main-section-parent">
+            <div class="main-section-primary-heading">
+              <h1>The only best wildlife information resource</h1>
+            </div>
+            <div class="main-section-para">
+              <p>
+                The ultimate information resource about different animals across
+                five countries USA, India, UAE, Australia and Japan.
+              </p>
+            </div>
+            <div class="main-section-btn">
+              <a href="#carousel-section" class="primary-btn">View More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-1">
+      <section id="carousel-section" class="carousel-section">
+        <h1>Explore The Wildlife</h1>
+        <p>
+          The different animals from world's five popular countries representing
+          beautiful wildlife.
+        </p>
+        <p></p>
+        <div class="carousel">
+          <ul class="carousel__list">
+            <li class="carousel__item" data-pos="-2">1</li>
+            <li class="carousel__item" data-pos="-1">2</li>
+            <li class="carousel__item" data-pos="0">3</li>
+            <li class="carousel__item" data-pos="1">4</li>
+            <li class="carousel__item" data-pos="2">5</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- About Modal -->
+    <div class="modal" id="modal-about">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+        <h2>About</h2>
+      </div>
+      <div class="modal-body">
+        <p class="body-para">
+          "Let us introduce ourselves. We are a group of college students who
+          have been together for a looong time, we are like one team that always
+          stands tall wherever you go you will find us. Our group consists of 4
+          students Marwan, the adventurous one that loves Big cats like tigers
+          and lions, and Hassan is the chill one that doesn't like to be annoyed
+          and enjoys his time when in calm areas. He admires the sound of birds
+          and nature. Syed is the naughty one, always in areas where he
+          shouldn't be, and is in love with Monkeys and gorillas. last but not
+          least, Ahmed is the wisest and smartest one between us always calm and
+          always has the solution to our problems. Ahmed’s personality is more
+          like a Crow calm and always observing what's going on around him. one
+          of our biggest admiration is animals and we really like studying
+          animals and understanding more about their lives and how they survive.
+          so we made this website to show people and give them information on 5
+          countries we focused on their most unique animals, some might be the
+          national symbol for their countries and some are facing extinction and
+          some that you might not even know. hope you enjoy our website and
+          please don't forget to drop your feedback on the way out.
+        </p>
+        <div class="modal-footer">
+          <p>Made with ❤ by Marwan, Hassan and Syed</p>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+
+    <script src="./JS/carousel.js"></script>
+    <script src="./JS/modal-show.js"></script>
+  </body>
+</html>

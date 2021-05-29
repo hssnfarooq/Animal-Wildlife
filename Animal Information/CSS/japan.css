@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Open+Sans:wght@400;600;700&display=swap');
+
+/* Color  background: #769bbe; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.7;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container-1 {
+  max-width: 1960px;
+  margin: 0 auto;
+}
+
+.container-1 .nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  height: 12vh;
+  padding: 0px 25px;
+}
+
+.container-1 .nav-parent .nav-child .brand-name {
+  font-size: 2.5rem;
+  font-family: 'Cardo', serif;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li {
+  margin-right: 32px;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li a:hover {
+  color: #ba6904;
+  border-bottom: 2px solid #ba6904;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li:last-child {
+  margin-right: 0px;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child .dropdown {
+  position: relative;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: #333;
+  top: 25px;
+  right: -30px;
+  z-index: 10;
+}
+
+.container-1 .nav-parent .nav-child .nav-grand-child li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px 0px 0px;
+}
+
+.container-1
+  .nav-parent
+  .nav-child
+  .nav-grand-child
+  li:hover
+  .sub-menu-1
+  ul
+  li {
+  width: 100px;
+  padding: 10px 25px 10px;
+  border-bottom: 1px solid #eee;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.container-1
+  .nav-parent
+  .nav-child
+  .nav-grand-child
+  li:hover
+  .sub-menu-1
+  ul
+  li:last-child {
+  border-bottom: 0;
+}
+
+.container-1
+  .nav-parent
+  .nav-child
+  .nav-grand-child
+  li:hover
+  .sub-menu-1
+  ul
+  li:hover {
+  background-color: #eee;
+  color: #333;
+}
+
+.container-1
+  .nav-parent
+  .nav-child
+  .nav-grand-child
+  li:hover
+  .sub-menu-1
+  ul
+  li:hover
+  a {
+  color: #ba6904;
+  border-bottom: 2px solid #ba6904;
+}
+
+/* Indian Section */
+
+.container-1 .section-india .india-hero-image {
+  background: url('../Images/Japan.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  opacity: 0.95;
+}
+
+.container-1 .section-india .section-india-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.container-1 .section-india .section-india-parent .section-india-info {
+  background-color: #fff;
+  color: #333;
+  padding: 25px;
+  width: 680px;
+  max-width: 100%;
+  border: 2px solid #333;
+}
+
+.container-1 .section-india .section-india-parent .section-india-info h2 {
+  text-align: center;
+  color: #333;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Cardo', serif;
+  margin: 0px 0px 10px;
+}
+
+.container-1 .section-india .section-india-parent .section-india-info p {
+  text-align: justify;
+  color: #333;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 0 10px;
+}
+
+.container-1 .section-india .section-india-parent .section-india-wildlife {
+  background-color: #fff;
+  color: #333;
+  padding: 25px;
+  width: 680px;
+  max-width: 100%;
+  margin-left: 25px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5),
+    -5px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container-1 .section-india .section-india-parent .section-india-wildlife img {
+  width: 100%;
+}
+
+/* Animal Description */
+.container-1 .animal-description-section {
+  background: #333;
+  display: block;
+  padding-bottom: 55px;
+}
+
+.container-1 .animal-description-section h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Cardo', serif;
+  padding: 15px 0px;
+}
+
+.container-1 .animal-description-section .animal-description-section-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column {
+  flex: 33.33%;
+  padding: 0px 5px;
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-1 {
+  background: url('../Images/jp-2-eagle.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  opacity: 0.75;
+  border-radius: 5px;
+  border: 2.5px solid #fff;
+  transition: all 0.35s ease;
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-2 {
+  background: url('../Images/mcj-2.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  opacity: 0.75;
+  border-radius: 5px;
+  border: 2.5px solid #fff;
+  transition: all 0.35s ease;
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-3 {
+  background: url('../Images/ammi-2.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  opacity: 0.75;
+  border-radius: 5px;
+  border: 2.5px solid #fff;
+  transition: all 0.35s ease;
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .heading-prim
+  h5 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 5px 10px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-1:hover {
+  transform: translateY(-15px);
+}
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-2:hover {
+  transform: translateY(-15px);
+}
+.container-1
+  .animal-description-section
+  .animal-description-section-row
+  .animal-description-section-column
+  .india-animal-hero-3:hover {
+  transform: translateY(-15px);
+}
